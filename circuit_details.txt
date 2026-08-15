@@ -1,0 +1,23 @@
+PROJECT: Configurable Logging and Debugging System
+
+CONTROLLER:
+LPC2129
+
+COMPONENTS:
+1. LPC2129 Development Board
+2. LED
+3. Resistor
+4. UART interface
+5. Power supply
+
+CONNECTION:
+LED is connected to the GPIO pin of LPC2129.
+UART0 is used for serial communication and displaying
+logging/debugging messages.
+
+WORKING:
+The LPC2129 controls the LED and generates system events.
+INFO, DEBUG and ERROR messages are configured using
+C preprocessor directives.
+The log messages are transmitted through UART for
+monitoring and debugging.

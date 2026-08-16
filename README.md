@@ -38,8 +38,6 @@ The required logging levels can be enabled or disabled during compilation using 
 
 ## Project Files
 
-## Project Files
-
 - main.c – Main source code
 - led.c – LED control functions
 - delay.c – Delay functions

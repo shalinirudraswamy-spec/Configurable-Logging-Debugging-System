@@ -38,7 +38,17 @@ The required logging levels can be enabled or disabled during compilation using 
 
 ## Project Files
 
+## Project Files
+
 - main.c – Main source code
+- led.c – LED control functions
+- delay.c – Delay functions
+- delay.h – Delay header file
+- header.h – Project header definitions
+- circuit_details.txt – Circuit connection details
+- circuit_diagram.png – Circuit diagram
+- serial_terminal_testing.png – UART/serial terminal output
+- GPIO_LED_testing.mp4 – Hardware testing video
 - README.md – Project documentation
 
 ## Conclusion

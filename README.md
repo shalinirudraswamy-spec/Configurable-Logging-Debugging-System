@@ -1,54 +1,40 @@
 # Design and Implementation of a Configurable Logging and Debugging System Using C Preprocessor Directives
 
-## Objective
 
-To design and implement a configurable logging and debugging system using C preprocessor directives on the LPC2129 microcontroller.
+# Preprocessor Project
 
-## Hardware Requirements
+## Title
+Preprocessor
 
-- LPC2129 Development Board
-- LED
-- Resistor
-- UART interface
-- Power supply
+## Description
+This project implements a simple C preprocessor using C programming.
 
-## Software Requirements
+## Tasks
 
-- Embedded C
-- ARM/LPC21xx compiler
-- Keil IDE
+1. Remove All the Comments
+2. Header File Inclusion
+3. Macro Substitution
 
-## Methodology
+## Technologies Used
 
-The system uses C preprocessor directives to configure different logging levels such as INFO, DEBUG and ERROR.
+- C Programming
+- File Handling
+- String Handling
+- C Preprocessor Concepts
+- Makefile
 
-The LPC2129 performs the required application operation and generates log messages for important system events. The logging messages are transmitted through UART for monitoring and debugging.
+## Input
 
-The required logging levels can be enabled or disabled during compilation using preprocessor directives.
+abc.c
 
-## Features
+## Output
 
-- Configurable logging
-- INFO messages
-- DEBUG messages
-- ERROR messages
-- Compile-time configuration
-- UART-based monitoring
-- LPC2129 hardware implementation
+abc.i
 
-## Project Files
+## Compilation
 
-- main.c – Main source code
-- led.c – LED control functions
-- delay.c – Delay functions
-- delay.h – Delay header file
-- header.h – Project header definitions
-- circuit_details.txt – Circuit connection details
-- circuit_diagram.png – Circuit diagram
-- serial_terminal_testing.png – UART/serial terminal output
-- GPIO_LED_testing.mp4 – GPIO pins testing video
-- README.md – Project documentation
+make
 
-## Conclusion
+## Execution
 
-The project provides a simple and configurable method for monitoring and debugging an embedded system using C preprocessor directives.
+make run
